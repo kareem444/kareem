@@ -22,8 +22,11 @@ import { UsersModule } from './users/users.module';
       username: 'semubzricsdtgt',
       password: '9c4ecc4c8b9db36b6b6e2dd022d4e62ef0e2864d2446382d51923825cec71dbe',
       database: 'd8ta631hts0u6p',
-      entities: [User],
-      synchronize: true,
+      ssl: {
+        rejectUnauthorized: false,
+      },
+      // entities: [User],
+      // synchronize: true,
     }),
     // UsersModule,
   ],
