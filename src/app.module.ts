@@ -28,7 +28,7 @@ import { UsersModule } from './users/users.module';
       entities: [User],
       synchronize: true,
     }),
-    // UsersModule,
+    UsersModule,
   ],
   controllers: [AppController],
   providers: [AppService],
