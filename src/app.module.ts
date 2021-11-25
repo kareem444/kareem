@@ -25,8 +25,8 @@ import { UsersModule } from './users/users.module';
       ssl: {
         rejectUnauthorized: false,
       },
-      // entities: [User],
-      // synchronize: true,
+      entities: [User],
+      synchronize: true,
     }),
     // UsersModule,
   ],
